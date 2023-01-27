@@ -1,0 +1,74 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* background-image:url("./cal.png") */
+    /* background-repeat: repeat-x; */
+
+}
+.center{
+    text-align: center;
+    /* background-color: blue; */
+    /* padding: -10px; */
+    
+}
+ .button{
+    text-align: center;
+    
+   background-color: rgb(255, 255, 255);
+}
+.btn{
+    font-size: 50px;
+    margin: 2px;
+    padding: 15px;
+    background-color: rgb(41, 255, 21);
+    color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+.bg-red{
+    /* background-color: coral; */
+    /* margin: auto; */
+    /* max-width: 30vw; */
+    /* padding: 20px; */
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 90px; */
+    margin: 20px;
+    height: 511px;
+    width: 283px;
+}
+.row{
+    margin: 2px 0;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: rgb(247, 0, 255);
+}
+.row input{
+ padding: 10px;
+ /* padding-left: 2px; */
+ font-size: 29px;
+ font-weight: 20px;
+ /* font-size-adjust: ;
+  */
+  font-style: italic;
+  font-weight: bold;
+  width: 280px;
+  background-color: grey;
+
+}
+.o{
+    /* background-color: black; */
+    /* width: max-content; */
+    max-width: fit-content;
+    /* justify-items: center;
+     */
+     margin: auto;
+     border: 2px solid black;
+     padding: 0px;
+}
+body{
+    height: 10px;
+}
